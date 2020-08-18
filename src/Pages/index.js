@@ -1,0 +1,12 @@
+export { default as HomePage } from './home.jsx';
+// export { default as HelpPage } from './help.tsx';
+// export { default as SignInPage } from './auth/sign-in.tsx';
+// export { default as ResetPasswordPage } from './auth/reset-password.tsx';
+// export { default as ForgotPasswordPage } from './auth/forgot-password.tsx';
+// export { default as SignUpPage } from './auth/sign-up.tsx';
+// export { default as SettingsPage } from './settings.tsx';
+// export { default as StatisticPage } from './statistic.tsx';
+// export { default as ProfilePage } from './profile.tsx';
+// export { default as TimelineEditorPage } from './timelineEditor.tsx';
+// export { default as LessonPage } from './lesson.tsx';
+// export { default as CoursesPage } from './courses.tsx';
