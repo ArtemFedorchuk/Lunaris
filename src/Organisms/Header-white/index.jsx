@@ -1,10 +1,16 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const WhiteHeader = () => {
   return (
-    Container
+    <Container className={styles.whiteHeaderWrapper}>
+      <Row>
+        <Col>
+          <p>white header</p>
+        </Col>
+      </Row>
+    </Container>
   )
 };
 
