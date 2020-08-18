@@ -1,3 +1,10 @@
 .whiteHeaderWrapper {
-	background: #000;
+	height: 100px;
+	position: absolute;
+	background: white;
+	color: #7c7b7b;
+	left: 50%;
+	margin-right: -50%;
+	transform: translateX(-50%);
+	clip-path: polygon(4% 67%, 93% 64%, 97% 0, 0 0);
 }

@@ -12,8 +12,10 @@ const HeaderSection = (props) => {
 	return (
 			<Container fluid className={styles.headerWrapper}>
 				<DarkHeader/>
-				<MiddleHeader/>
-				<WhiteHeader/>
+				<div className={styles.wrapperPosition}>
+					<MiddleHeader/>
+					<WhiteHeader/>
+				</div>
 			</Container>
 	);
 };
