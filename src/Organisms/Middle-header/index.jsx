@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import { Container, Row, Col } from 'react-bootstrap';
-import { House } from 'react-bootstrap-icons';
 
 const MiddleHeader = () => {
   return (
@@ -14,7 +13,9 @@ const MiddleHeader = () => {
             </span>
           </Col>
           <Col className='text-right'>
-            <House />
+            <span className={styles.midleHederText}>
+              Accueil / Profil
+            </span>
           </Col>
         </Row>
       </Container>

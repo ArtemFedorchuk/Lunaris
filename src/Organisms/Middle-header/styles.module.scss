@@ -9,4 +9,14 @@
 		font-weight: 700;
 		letter-spacing: 1.5px;
 	}
+	.midleHederText {
+		position: relative;
+		display: block;
+		font-family: "Roboto Condensed", sans-serif;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		cursor: pointer;
+		padding-top: 10px;
+		z-index: 1;
+	}
 }
