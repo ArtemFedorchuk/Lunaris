@@ -18,58 +18,60 @@ const DarkHeader = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Container className={styles.headerDark}>
-      <Row className='align-items-baseline'>
-        <Col>
-          <div>
+    <Container fluid className={styles.headerDark}>
+      <Container>
+        <Row className='align-items-baseline'>
+          <Col>
+            <div>
               <img
                 className={styles.headerLogo}
                 src={logo}
                 alt='logo'
               />
-          </div>
-        </Col>
-        <Col className='text-center'>
-          <div>
-            <img src={searchImage} alt='search'/>
-          </div>
-        </Col>
-        <Col>
-          <div className={styles.buttonWrapper}>
-            <div className={styles.userLogo}>
-              <img
-                onClick={toggle}
-                src={avatarHeder}
-                alt='user-logo'
-              />
             </div>
-            <div className={styles.wrapperButtonGroup}>
-              <span>Hakio</span>
-              <div className={styles.buttonGroup}>
-                <div className={styles.bell}>
-                  <Badge pill variant="danger" className={styles.bellBudge} >
-                    5
-                  </Badge>
-                  <Bell width="20px" height="20px" />
-                </div>
-                <div className={styles.heart}>
-                  <Heart/>
-                </div>
-                <div className={styles.message}>
-                  <Envelope/>
+          </Col>
+          <Col className='text-center'>
+            <div>
+              <img src={searchImage} alt='search'/>
+            </div>
+          </Col>
+          <Col>
+            <div className={styles.buttonWrapper}>
+              <div className={styles.userLogo}>
+                <img
+                  onClick={toggle}
+                  src={avatarHeder}
+                  alt='user-logo'
+                />
+              </div>
+              <div className={styles.wrapperButtonGroup}>
+                <span>Hakio</span>
+                <div className={styles.buttonGroup}>
+                  <div className={styles.bell}>
+                    <Badge pill variant="danger" className={styles.bellBudge} >
+                      8
+                    </Badge>
+                    <Bell className={styles.bellBtn} width="20px" height="20px"/>
+                  </div>
+                  <div className={styles.heart}>
+                    <Heart className={styles.heartBtn} width="20px" height="20px"/>
+                  </div>
+                  <div className={styles.message}>
+                    <Envelope className={styles.envelopeBtn} width="20px" height="20px"/>
+                  </div>
                 </div>
               </div>
+
+              {isOpen ? (
+                <div className={styles.menuHeader}>
+                  <HeaderToggleMenu />
+                </div>
+              ): false}
             </div>
+          </Col>
 
-            {isOpen ? (
-              <div className={styles.menuHeader}>
-                <HeaderToggleMenu />
-              </div>
-            ): false}
-          </div>
-        </Col>
-
-      </Row>
+        </Row>
+      </Container>
     </Container>
   )
 };

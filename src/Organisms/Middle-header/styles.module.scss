@@ -1,0 +1,12 @@
+.middleHeaderWrapper {
+	height: 98px;
+	background: url(../../asets/images/background-header.png) top/cover, linear-gradient(to right, #f03061, #f8a142);
+	display: flex;
+	align-items: center;
+	.headerTittle {
+		font-family: Roboto, sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		letter-spacing: 1.5px;
+	}
+}
