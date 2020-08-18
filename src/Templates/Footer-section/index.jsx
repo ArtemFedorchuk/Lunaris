@@ -1,19 +1,16 @@
 import React from 'react';
+import {Container} from 'react-bootstrap';
 import styles from './styles.module.scss';
-import { Container, Row, Col } from 'react-bootstrap';
+import {DarkFooter, FooterPartners, Copyright} from "../../Organisms/index";
 
 const FooterSection = (props) => {
-	const text = 'Footer section';
-
-	return (
-			<Container>
-				<Row>
-					<Col>
-						<h1 className={styles.h1}>{text}</h1>
-					</Col>
-				</Row>
-			</Container>
-	);
+    return (
+        <Container fluid className={styles.footer}>
+            <FooterPartners />
+            <DarkFooter/>
+            <Copyright />
+        </Container>
+    );
 };
 
 export default FooterSection;
