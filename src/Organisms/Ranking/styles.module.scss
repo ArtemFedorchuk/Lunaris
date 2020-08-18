@@ -1,0 +1,22 @@
+.ranking{
+  box-shadow: 0 5px 5px rgba(204, 204, 204, 0.75);
+  background-color: #ffffff;
+  max-height: 120px;
+  margin-bottom: 200px;
+  .row{
+    width: 100%;
+  }
+  .badge{
+    margin: -85px 0;
+    width: 277px;
+  }
+  .rankBadge{
+    display: flex;
+    .text{
+      max-width: 230px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      color: #202020;
+    }
+  }
+}
