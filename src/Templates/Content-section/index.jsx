@@ -1,18 +1,14 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import { Container, Row, Col } from 'react-bootstrap';
+import {Banner} from "../../Organisms";
 
 const ContentSection = (props) => {
-	const text = 'Content section';
 
 	return (
-			<Container>
-				<Row>
-					<Col>
-						<h1 className={styles.h1}>{text}</h1>
-					</Col>
-				</Row>
-			</Container>
+		<main className={styles.main}>
+			<Banner />
+		</main>
 	);
 };
 
