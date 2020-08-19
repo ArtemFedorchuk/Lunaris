@@ -11,8 +11,6 @@ import scrollImg from '../../asets/images/sidebar-statistic/sidebar-scroll.png';
 import bearImg from '../../asets/images/sidebar-statistic/bear.png';
 
 const SideBarStatistic = () => {
-	const text = 'SideBarStatistic';
-
 	return (
 		<div>
 			<div className={styles.wrapperStatistic}>

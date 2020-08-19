@@ -4,6 +4,7 @@ import {
 	Banner,
 	Ranking,
 	SideBarStatistic,
+	NewsList,
 	UsersCardMenu,
 } from '../../Organisms';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -20,10 +21,11 @@ const ContentSection = (props) => {
 					<Row>
 						<Col>
 							<SideBarStatistic />
+							<div className={styles.block}></div>
 							<UsersCardMenu />
 						</Col>
 						<Col>
-							<h2>Games list</h2>
+							<NewsList />
 						</Col>
 					</Row>
 				</Container>

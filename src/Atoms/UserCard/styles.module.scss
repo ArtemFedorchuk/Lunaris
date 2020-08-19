@@ -1,3 +1,41 @@
 .cardWrapper {
+	max-width: 338px;
+	position: relative;
 	display: flex;
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgba(204, 204, 204, 0.75);
+	padding: 10px 20px;
+	justify-content: center;
+	.cardAvatar {
+		position: absolute;
+		right: 20px;
+		top: 25px;
+	}
+	.imgWrapper {
+		position: absolute;
+		top: -5px;
+		left: -35px;
+		img	{
+			width: 107px;
+			height: 117px;
+		}
+	}
+	.contentCardWrapper {
+		padding: 21px 0;
+		.cardTitle {
+			color: #000000;
+			font-family: Roboto, sans-serif;
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 0.9px;
+		}
+		.cardDescription {
+			opacity: 0.97;
+			color: #b1afae;
+			font-family: Roboto, sans-serif;
+			font-size: 14px;
+			font-weight: 700;
+			letter-spacing: 0.7px;
+		}
+	}
 }
