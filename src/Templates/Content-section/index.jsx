@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import { Banner, Ranking, SideBarStatistic } from '../../Organisms';
+import { Banner, Ranking, SideBarStatistic, NewsList } from '../../Organisms';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const ContentSection = (props) => {
@@ -17,7 +17,7 @@ const ContentSection = (props) => {
 						<p>User list</p>
 					</Col>
 					<Col>
-						<h2>Games list</h2>
+						<NewsList/>
 					</Col>
 				</Row>
 			</Container>

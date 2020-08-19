@@ -1,0 +1,50 @@
+.newsWrapper {
+  .leftCol {
+    display: flex;
+  }
+  .rightCol {
+    font-size: 12px;
+    letter-spacing: 0.6px;
+  }
+  .check {
+    width: 21px;
+    margin-right: 17px;
+  }
+  .mainDescr {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.7px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .newsBar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .checkWrap {
+    input {
+      width: 21px;
+      margin-right: 17px;
+    }
+  }
+  .primaryButton {
+    box-shadow: 0 0 10px rgba(204, 204, 204, 0.75);
+    background-color: #ffffff;
+    background-image: linear-gradient(to right, #ed2d50 0%, #f6921e 100%);
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    padding: 13px 29px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    &:hover {
+      background-image: linear-gradient(to right, #f8a142, #f03061);
+    }
+  }
+  .loadMore {
+    text-align: center;
+  }
+}

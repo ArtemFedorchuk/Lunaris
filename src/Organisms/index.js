@@ -10,3 +10,5 @@ export { default as Ranking } from './Ranking';
 
 export { default as DarkFooter } from './FooterDark/index';
 export { default as FooterPartners } from './FooterPartners';
+
+export { default as NewsList } from './NewsList';
