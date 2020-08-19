@@ -1,6 +1,11 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import { Banner, Ranking, SideBarStatistic } from '../../Organisms';
+import {
+	Banner,
+	Ranking,
+	SideBarStatistic,
+	UsersCardMenu,
+} from '../../Organisms';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const ContentSection = (props) => {
@@ -11,15 +16,17 @@ const ContentSection = (props) => {
 					<Banner />
 					<Ranking />
 				</Row>
-				<Row>
-					<Col>
-						<SideBarStatistic />
-						<p>User list</p>
-					</Col>
-					<Col>
-						<h2>Games list</h2>
-					</Col>
-				</Row>
+				<Container className='justify-content-between'>
+					<Row>
+						<Col>
+							<SideBarStatistic />
+							<UsersCardMenu />
+						</Col>
+						<Col>
+							<h2>Games list</h2>
+						</Col>
+					</Row>
+				</Container>
 			</Container>
 		</main>
 	);
