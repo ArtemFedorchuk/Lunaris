@@ -9,6 +9,7 @@
 	clip-path: polygon(4% 67%, 93% 64%, 97% 0, 0 0);
 	align-items: center;
 	font-family: Roboto, sans-serif;
+
 	.layerImg {
 		padding-top: 10px;
 	}
@@ -39,6 +40,7 @@
 				position: absolute;
 				right: 3px;
 				top: 47px;
+				overflow: visible;
 			}
 			&:hover {
 				background: linear-gradient(to right, #f8a142, #f03061);
@@ -61,6 +63,12 @@
 			font-weight: 400;
 			&:hover {
 				color: #343434;
+				&:after {
+					content: '';
+					display: block;
+					height: 2px;
+					background: #c58239;
+				}
 			}
 		}
 	}
