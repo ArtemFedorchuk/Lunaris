@@ -3,7 +3,9 @@ import styles from './styles.module.scss';
 import { PostItem } from '../../Molecules';
 import { CaretDownFill } from 'react-bootstrap-icons';
 
-const NewsList = () => {
+const NewsList = (props) => {
+	const { data } = props;
+
 	return (
 		<div className={styles.newsWrapper}>
 			<div className={styles.mainDescr}>
@@ -21,18 +23,11 @@ const NewsList = () => {
 				</div>
 			</div>
 			<div className='news-list'>
-				<PostItem />
-				<PostItem />
-				<PostItem />
-				<PostItem />
-				<PostItem />
-				<PostItem />
-				<PostItem />
-				<PostItem />
-				<PostItem />
-				<PostItem />
-				<PostItem />
-				<PostItem />
+				{data.map((items) => (
+					<div key={items.id}>
+						<PostItem items={items} />
+					</div>
+				))}
 			</div>
 			<div className={styles.loadMore}>
 				<button className={styles.primaryButton}>

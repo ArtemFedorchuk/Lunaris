@@ -10,6 +10,7 @@ import {
 import { Container, Row, Col } from 'react-bootstrap';
 
 const ContentSection = (props) => {
+	const { data } = props;
 	return (
 		<main className={styles.main}>
 			<Container fluid>
@@ -25,7 +26,7 @@ const ContentSection = (props) => {
 							<UsersCardMenu />
 						</Col>
 						<Col className={styles.newsList}>
-							<NewsList />
+							<NewsList data={data} />
 						</Col>
 					</Row>
 				</Container>

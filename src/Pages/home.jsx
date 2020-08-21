@@ -1,19 +1,19 @@
 import React from 'react';
-import '../index.css'
-
+import '../index.css';
 import {
 	HeaderSection,
 	ContentSection,
 	FooterSection,
 } from '../Templates/index';
 
-const HomePage = () => {
+const HomePage = (props) => {
+	const { data } = props;
 	return (
-			<div	className="pageContant">
-				<HeaderSection />
-				<ContentSection />
-				<FooterSection />
-			</div>
+		<div className='pageContant'>
+			<HeaderSection />
+			<ContentSection data={data} />
+			<FooterSection />
+		</div>
 	);
 };
 
