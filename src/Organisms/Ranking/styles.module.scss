@@ -20,3 +20,102 @@
     }
   }
 }
+
+/* ________ADAPTIVE______ */
+@media (max-width: 360px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+    .badge {
+      margin-right: -25px;
+      width: 220px;
+    }
+    .rankBadge {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+    .badge {
+      margin-right: -25px;
+      width: 150px;
+    }
+    .rankBadge {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+    .badge {
+      margin-right: -25px;
+      width: 150px;
+    }
+    .rankBadge {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .row {
+    justify-content: center;
+    .badge {
+      width: 220px;
+    }
+    .rankBadge {
+      p {
+        display: none;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .row {
+    justify-content: center;
+    flex-wrap: nowrap;
+    .rankBadge {
+      align-items: center;
+      p {
+
+      };
+      img {
+        height: 80px;
+        width: 80px;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .row {
+    flex-wrap: nowrap;
+    .rankBadge {
+      align-items: center;
+      p {
+        font-size: 18px !important;
+      };
+      img {
+        height: 80px;
+        width: 80px;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}

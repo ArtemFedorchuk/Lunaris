@@ -16,14 +16,14 @@ const DarkHeader = () => {
 	return (
 		<Container fluid className={styles.headerDark}>
 			<Container>
-				<Row className='align-items-baseline'>
+				<Row className={styles.adaptive}>
 					<Col>
 						<div>
 							<img className={styles.headerLogo} src={logo} alt='logo' />
 						</div>
 					</Col>
 					<Col className='text-center'>
-						<div>
+						<div className={styles.searchAdaptive}>
 							<img src={searchImage} alt='search' />
 						</div>
 					</Col>

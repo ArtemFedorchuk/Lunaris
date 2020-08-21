@@ -1,9 +1,33 @@
 .wrapperStatistic {
+	background: white;
 	max-width: 373px;
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 	box-shadow: 0px 0px 5px #dedede;
 	text-align: center;
+	.statisticInfo {
+		padding: 20px 0;
+		span {
+			color: #202020;
+			font-family: 'Roboto - Bold', sans-serif;
+			font-size: 30px;
+			font-weight: 700;
+			letter-spacing: 1.5px;
+		}
+		p {
+			font-family: 'Roboto - Italic', sans-serif;
+			font-size: 24px;
+			color: #202020;
+			letter-spacing: 1.2px;
+		}
+	}
+	.progressBarWrap {
+		padding-top: 10px;
+		padding-bottom: 15px;
+		img{
+			width: 247px;
+		}
+	}
 	.wrapMenu {
 		padding: 10px 35px;
 		.itemWrapper {
@@ -12,6 +36,7 @@
 			justify-content: flex-start;
 			align-items: center;
 			text-align: left;
+			cursor: pointer;
 			.wrapImg {
 				width: 87px;
 				height: 88px;
@@ -25,7 +50,7 @@
 
 			}
 			span {
-				font-family: "Roboto - Regular", sans-serif;
+				font-family: 'Roboto - Regular', sans-serif;
 				font-weight: 400;
 			}
 		}
@@ -50,6 +75,7 @@
 		display: flex;
 		flex-direction: column;
 		padding: 30px 20px;
+		cursor: pointer;
 		span {
 			font-family: Roboto, sans-serif;
 			font-size: 12px;
@@ -58,4 +84,39 @@
 			letter-spacing: 0.6px;
 		}
 	}
+}
+
+/* ________ADAPTIVE______ */
+
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 991px) {
+	.wrapperStatistic {
+		margin: 0 auto;
+	}
+	.sidebarBottom {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.wrapperStatistic {
+		margin: 0 auto;
+	}
+	.sidebarBottom {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 575px) {
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 396px) {
+
+}
+
+@media (max-width: 320px) {
+
 }

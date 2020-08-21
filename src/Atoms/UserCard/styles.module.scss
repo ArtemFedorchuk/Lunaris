@@ -1,11 +1,13 @@
 .cardWrapper {
+	background: white;
 	max-width: 338px;
 	position: relative;
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0 0 10px rgba(204, 204, 204, 0.75);
-	padding: 10px 20px;
-	justify-content: center;
+	//padding: 10px 20px;
+	padding: 10px 20px 10px 75px;
+	justify-content: flex-start;
 	.cardAvatar {
 		position: absolute;
 		right: 20px;
@@ -38,4 +40,47 @@
 			letter-spacing: 0.7px;
 		}
 	}
+}
+
+/* ________ADAPTIVE______ */
+
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 991px) {
+	.cardWrapper {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.cardWrapper {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 575px) {
+
+}
+
+@media (max-width: 375px) {
+	.imgWrapper {
+		position: absolute;
+		top: -5px;
+		left: -30px !important;
+	}
+}
+
+@media (max-width: 360px) {
+	.imgWrapper {
+		position: absolute;
+		top: -5px;
+		left: -28px !important;
+	}
+}
+
+
+
+@media (max-width: 320px) {
+
 }

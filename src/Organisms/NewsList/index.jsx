@@ -12,7 +12,7 @@ const NewsList = () => {
 			<div className={styles.newsBar}>
 				<div className={styles.leftCol}>
 					<div className={styles.check}>
-						<input type='checkbox' />
+						<input type='checkbox' className={styles.customCheckbox} />
 					</div>
 					<h6>Tout marqué comme lu</h6>
 				</div>
@@ -21,6 +21,15 @@ const NewsList = () => {
 				</div>
 			</div>
 			<div className='news-list'>
+				<PostItem />
+				<PostItem />
+				<PostItem />
+				<PostItem />
+				<PostItem />
+				<PostItem />
+				<PostItem />
+				<PostItem />
+				<PostItem />
 				<PostItem />
 				<PostItem />
 				<PostItem />

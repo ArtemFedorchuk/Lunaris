@@ -12,8 +12,8 @@ const userInfo = [
 	},
 	{
 		id: 2,
-		userTitle: 'Steam',
-		descriptions: 'League of legends',
+		userTitle: 'Hakio',
+		descriptions: 'Steam',
 		image: 'discord.png',
 	},
 	{

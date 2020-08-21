@@ -8,7 +8,7 @@ const PostItem = () => {
 		<div>
 			<div className={styles.postRow}>
 				<div className={styles.check}>
-					<input type='checkbox' />
+					<input type='checkbox' className={styles.customCheckbox} />
 				</div>
 
 				<div className={styles.postItem}>

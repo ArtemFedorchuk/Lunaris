@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 import { Heart, Envelope } from 'react-bootstrap-icons';
 
 //img
-import statusBarImg from '../../asets/images/menuProgressBar-2.png';
+import statusBarImg from '../../asets/images/sidebar-statistic/menuProgressBar-3.png';
 import logoTop from '../../asets/images/sidebar-statistic/bonus-3.png';
 import lizardManImg from '../../asets/images/sidebar-statistic/lizardman.png';
 import reputationLogo from '../../asets/images/sidebar-statistic/reputation.png';
@@ -17,11 +17,11 @@ const SideBarStatistic = () => {
 				<div className={styles.statisticLogo}>
 					<img src={logoTop} alt='logo' />
 				</div>
-				<div>
-					<h2>Hakio</h2>
+				<div className={styles.statisticInfo}>
+					<span>Hakio</span>
 					<p>dit le Fourbe</p>
 				</div>
-				<div>
+				<div className={styles.progressBarWrap}>
 					<img src={statusBarImg} alt='status-bar' />
 				</div>
 				<div className={styles.wrapMenu}>

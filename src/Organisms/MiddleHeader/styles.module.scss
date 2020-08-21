@@ -20,3 +20,33 @@
 		z-index: 1;
 	}
 }
+
+/* ________ADAPTIVE______ */
+@media (max-width: 360px) {
+	.headerTittle {
+		font-size: 18px !important;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.headerTittle {
+		font-size: 20px !important;
+	}
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+	.headerTittle {
+		font-size: 20px !important;
+	}
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}

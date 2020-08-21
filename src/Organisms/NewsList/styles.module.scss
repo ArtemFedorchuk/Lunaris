@@ -1,4 +1,5 @@
 .newsWrapper {
+  padding-bottom: 250px;
   .leftCol {
     display: flex;
   }
@@ -46,5 +47,35 @@
   }
   .loadMore {
     text-align: center;
+  }
+  .customCheckbox {
+    position: relative;
+    width: 21px;
+    height: 21px;
+    appearance: none;
+    box-shadow: none;
+    border: 1px solid #cacaca;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    &:checked{
+      appearance: none;
+      box-shadow: none;
+      border: 1px solid #cacaca;
+      background-color: #f8a04b;
+      &:after{
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 14px;
+        border: 2px solid;
+        border-color: transparent white white transparent;
+        transform: rotate(45deg);
+        left: calc(50% - 4px);
+      }
+    }
+    &:focus{
+      appearance: none;
+      box-shadow: none;
+    }
   }
 }

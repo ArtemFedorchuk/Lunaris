@@ -7,10 +7,44 @@
 	.check {
 		width: 21px;
 		margin-right: 16px;
+		input:checked {
+
+		}
+		.customCheckbox {
+			position: relative;
+			width: 21px;
+			height: 21px;
+			appearance: none;
+			box-shadow: none;
+			border: 1px solid #cacaca;
+			background-color: #f5f5f5;
+			border-radius: 3px;
+			&:checked{
+				appearance: none;
+				box-shadow: none;
+				border: 1px solid #cacaca;
+				background-color: #f8a04b;
+				&:after{
+					content: '';
+					position: absolute;
+					width: 8px;
+					height: 14px;
+					border: 2px solid;
+					border-color: transparent white white transparent;
+					transform: rotate(45deg);
+					left: calc(50% - 4px);
+				}
+			}
+			&:focus{
+				appearance: none;
+				box-shadow: none;
+			}
+		}
 	}
 
 	.postItem {
-		width: calc(100% - 38px);
+		width: 738px;
+		//width: calc(100% - 38px);
 	}
 	.postDescr {
 		display: inline-flex;
@@ -40,6 +74,9 @@
 	}
 	.imgWrapper {
 		width: 152px;
+		img	{
+			width: 100%;
+		}
 	}
 	.postDescr {
 		width: calc(100% - 152px);
@@ -60,4 +97,36 @@
 
 .checkWrap {
 	display: flex;
+
 }
+	/* ________ADAPTIVE______ */
+	@media (max-width: 360px) {
+
+	}
+
+	@media (max-width: 575.98px) {
+		.postItem {
+			flex-direction: column;
+			.imgWrapper {
+				width: 100%;
+			}
+			.postDescr {
+				width: 100%;
+			}
+		}
+	}
+
+	// Small devices (landscape phones, less than 768px)
+	@media (max-width: 767.98px) {
+
+	}
+
+	// Medium devices (tablets, less than 992px)
+	@media (max-width: 991.98px) {
+
+	}
+
+	// Large devices (desktops, less than 1200px)
+	@media (max-width: 1199.98px) {
+
+	}

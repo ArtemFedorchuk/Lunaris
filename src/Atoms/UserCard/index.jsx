@@ -5,7 +5,6 @@ import avateImg from '../../asets/images/userCard/Calque.png';
 
 const UserCard = (props) => {
 	const { userTitle, descriptions, image, avatar } = props;
-	console.log(avatar);
 
 	return (
 		<div className={styles.cardWrapper}>

@@ -24,7 +24,7 @@ const ContentSection = (props) => {
 							<div className={styles.block}></div>
 							<UsersCardMenu />
 						</Col>
-						<Col>
+						<Col className={styles.newsList}>
 							<NewsList />
 						</Col>
 					</Row>
