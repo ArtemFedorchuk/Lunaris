@@ -19,7 +19,9 @@ const DarkHeader = () => {
 				<Row className={styles.adaptive}>
 					<Col>
 						<div>
-							<img className={styles.headerLogo} src={logo} alt='logo' />
+							<a href='#'>
+								<img className={styles.headerLogo} src={logo} alt='logo' />
+							</a>
 						</div>
 					</Col>
 					<Col className='text-center'>

@@ -5,21 +5,20 @@
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0 0 10px rgba(204, 204, 204, 0.75);
-	//padding: 10px 20px;
-	padding: 10px 20px 10px 75px;
+	padding: 0px 20px 0px 75px;
 	justify-content: flex-start;
 	.cardAvatar {
 		position: absolute;
 		right: 20px;
-		top: 25px;
+		top: 20px;
 	}
 	.imgWrapper {
 		position: absolute;
-		top: -5px;
+		top: -18px;
 		left: -35px;
 		img	{
-			width: 107px;
-			height: 117px;
+			width: 109px;
+			height: 119px;
 		}
 	}
 	.contentCardWrapper {

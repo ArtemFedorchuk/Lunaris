@@ -15,7 +15,7 @@ const PostItem = (props) => {
 
 				<div className={styles.postItem}>
 					<div className={styles.imgWrapper}>
-						<img src={postImg} alt='' />
+						<img src={postImg} alt='post' />
 					</div>
 					<div className={styles.postDescr}>
 						<div className={styles.text}>
