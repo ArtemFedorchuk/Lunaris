@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import { Container, Row, Col } from 'react-bootstrap';
-import profileBadge from '../../asets/images/ranking/profile-badge.png';
-import diamandRank from '../../asets/images/ranking/badge-diamant_copie.png';
-import boisRank from '../../asets/images/ranking/badge-bois_(1).png';
+import profileBadge from '../../assets/images/ranking/profile-badge.png';
+import diamandRank from '../../assets/images/ranking/badge-diamant_copie.png';
+import boisRank from '../../assets/images/ranking/badge-bois_(1).png';
 
 const Ranking = () => {
 	return (

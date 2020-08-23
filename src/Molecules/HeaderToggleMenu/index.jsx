@@ -5,12 +5,12 @@ import {
 	Power,
 } from 'react-bootstrap-icons';
 
-import progressImgOne from '../../asets/images/menuProgresBar-1.png';
-import progressImgTwo from '../../asets/images/menuProgressBar-2.png';
-import monBtnImg from '../../asets/images/monBtn.png'
-import scriptBtnImg from '../../asets/images/scriptBtn.png'
-import settingBtnImg from '../../asets/images/settingBtn.png';
-import cristalImg from '../../asets/images/cristal.png';
+import progressImgOne from '../../assets/images/menuProgresBar-1.png';
+import progressImgTwo from '../../assets/images/menuProgressBar-2.png';
+import monBtnImg from '../../assets/images/monBtn.png'
+import scriptBtnImg from '../../assets/images/scriptBtn.png'
+import settingBtnImg from '../../assets/images/settingBtn.png';
+import cristalImg from '../../assets/images/cristal.png';
 
 const HeaderToggleMenu = (props) => {
 

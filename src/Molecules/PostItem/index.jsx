@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import postImg from '../../asets/images/news/post-img.png';
-import arrowRightIcon from '../../asets/images/news/fas_fa-chevron-right.png';
+import postImg from '../../assets/images/news/post-img.png';
+import arrowRightIcon from '../../assets/images/news/fas_fa-chevron-right.png';
 import { HeartFill } from 'react-bootstrap-icons';
 
 const PostItem = (props) => {
@@ -20,28 +20,12 @@ const PostItem = (props) => {
 					<div className={styles.postDescr}>
 						<div className={styles.text}>
 							<h4 className='inner-title'>
-								{items.titleIcon && (
-									<HeartFill/>
-								)}
-								{' '}
-								<a href='#'>
-									{items.person}
-								</a>
-								{' '}
-								{items.title}
+								{items.titleIcon && <HeartFill />}{' '}
+								<a href='#'>{items.person}</a> {items.title}
 							</h4>
 							<p>
-								{items.description}
-								{' '}
-								<a href='#'>
-									{items.descriptionLink}
-								</a>
-								{' '}
-								{items.descriptionIcon && (
-									<HeartFill/>
-								)}
-								{' '}
-								{items.descriptionIcon}
+								{items.description} <a href='#'>{items.descriptionLink}</a>{' '}
+								{items.descriptionIcon && <HeartFill />} {items.descriptionIcon}
 								{' - '}
 								<span className={styles.datePubl}>{items.datePublish}</span>
 							</p>

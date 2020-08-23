@@ -1,0 +1,27 @@
+.searchWrapper {
+	display: flex;
+	.btnSearch {
+		background: #181818;
+		color: white;
+		border: none;
+		padding: 14px 5px 14px 15px;
+		border-bottom-left-radius: 25px;
+		border-top-left-radius: 25px;
+		outline: none;
+	}
+	.input {
+		background: #181818;
+		padding: 14px 100px 14px 10px;
+		border: none;
+		color: white;
+	}
+	.btnClose {
+		background: #181818;
+		color: white;
+		border: none;
+		padding: 14px 15px 14px 5px;
+		border-bottom-right-radius: 25px;
+		border-top-right-radius: 25px;
+		outline: none;
+	}
+}

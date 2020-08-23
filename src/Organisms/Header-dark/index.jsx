@@ -4,10 +4,10 @@ import { Container, Row, Col, Badge } from 'react-bootstrap';
 import { Bell, Heart, Envelope } from 'react-bootstrap-icons';
 
 import { HeaderToggleMenu } from '../../Molecules';
+import SearchInfo from '../../Atoms/Search';
 
-import logo from '../../asets/images/heder-logo.png';
-import searchImage from '../../asets/images/search.png';
-import avatarHeder from '../../asets/images/avatarHeader.png';
+import logo from '../../assets/images/heder-logo.png';
+import avatarHeader from '../../assets/images/avatarHeader.png';
 
 const DarkHeader = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -24,13 +24,13 @@ const DarkHeader = () => {
 					</Col>
 					<Col className='text-center'>
 						<div className={styles.searchAdaptive}>
-							<img src={searchImage} alt='search' />
+							<SearchInfo />
 						</div>
 					</Col>
 					<Col>
 						<div className={styles.buttonWrapper}>
 							<div className={styles.userLogo}>
-								<img onClick={toggle} src={avatarHeder} alt='user-logo' />
+								<img onClick={toggle} src={avatarHeader} alt='user-logo' />
 							</div>
 							<div className={styles.wrapperButtonGroup}>
 								<span>Hakio</span>

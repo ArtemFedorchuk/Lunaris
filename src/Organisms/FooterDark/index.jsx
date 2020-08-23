@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles.module.scss'
 import {Container, Row, Col} from 'react-bootstrap';
 
-import image from '../../asets/images/footer/footer.png'
+import image from '../../assets/images/footer/footer.png'
 
 const DarkFooter = () => {
     return (

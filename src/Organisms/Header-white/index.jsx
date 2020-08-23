@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './styles.module.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import layerImg from '../../asets/images/layers.png';
+import layerImg from '../../assets/images/layers.png';
 import { CategoryToggleMenu } from '../../Molecules';
 
 const WhiteHeader = () => {

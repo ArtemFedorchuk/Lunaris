@@ -3,12 +3,12 @@ import styles from './styles.module.scss';
 import { Heart, Envelope } from 'react-bootstrap-icons';
 
 //img
-import statusBarImg from '../../asets/images/sidebar-statistic/menuProgressBar-3.png';
-import logoTop from '../../asets/images/sidebar-statistic/bonus-3.png';
-import lizardManImg from '../../asets/images/sidebar-statistic/lizardman.png';
-import reputationLogo from '../../asets/images/sidebar-statistic/reputation.png';
-import scrollImg from '../../asets/images/sidebar-statistic/sidebar-scroll.png';
-import bearImg from '../../asets/images/sidebar-statistic/bear.png';
+import statusBarImg from '../../assets/images/sidebar-statistic/menuProgressBar-3.png';
+import logoTop from '../../assets/images/sidebar-statistic/bonus-3.png';
+import lizardManImg from '../../assets/images/sidebar-statistic/lizardman.png';
+import reputationLogo from '../../assets/images/sidebar-statistic/reputation.png';
+import scrollImg from '../../assets/images/sidebar-statistic/sidebar-scroll.png';
+import bearImg from '../../assets/images/sidebar-statistic/bear.png';
 
 const SideBarStatistic = () => {
 	return (
