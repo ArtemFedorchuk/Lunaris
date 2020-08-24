@@ -1,9 +1,11 @@
+.disable {
+	opacity: .4;
+}
 .postRow {
 	display: flex;
 	align-items: center;
 	margin-bottom: 23px;
 	font-family: 'Roboto', sans-serif;
-
 	.check {
 		width: 21px;
 		margin-right: 16px;

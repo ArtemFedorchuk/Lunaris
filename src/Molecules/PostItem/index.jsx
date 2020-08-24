@@ -8,7 +8,11 @@ const PostItem = (props) => {
 	const { items } = props;
 	return (
 		<>
-			<div className={styles.postRow}>
+			<div
+				className={
+					items.disable ? styles.postRow + ' ' + styles.disable : styles.postRow
+				}
+			>
 				<div className={styles.check}>
 					<input type='checkbox' className={styles.customCheckbox} />
 				</div>
