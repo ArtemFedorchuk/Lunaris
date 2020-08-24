@@ -1,7 +1,7 @@
 export const mock = [
 	{
 		id: 1,
-		imgUrl: 'url',
+		imgUrl: 'post-img.png',
 		person: 'Hakio',
 		title: 'a écrit un nouvel article.',
 		titleIcon: true,
@@ -10,7 +10,7 @@ export const mock = [
 	},
 	{
 		id: 2,
-		imgUrl: 'url',
+		imgUrl: 'post-img.png',
 		title: 'Sortie de Monster Hunter World',
 		description: 'Sur',
 		descriptionIcon: true,
@@ -19,7 +19,7 @@ export const mock = [
 	},
 	{
 		id: 3,
-		imgUrl: 'url',
+		imgUrl: 'cover-3.png',
 		person: 'Hakio',
 		title: 'a écrit un nouvel avis.',
 		icon: true,
@@ -29,7 +29,7 @@ export const mock = [
 	},
 	{
 		id: 4,
-		imgUrl: 'url',
+		imgUrl: 'cover-J-7.png',
 		title: 'J-7 avant la sortie de Monster Hunter World',
 		descriptionIcon: true,
 		descriptionLink: 'Monster Hunter World',
@@ -37,7 +37,7 @@ export const mock = [
 	},
 	{
 		id: 5,
-		imgUrl: 'url',
+		imgUrl: 'cover-Jour-J.png',
 		title: 'Sortie de Monster Hunter World !',
 		descriptionIcon: true,
 		descriptionLink: 'Monster Hunter World',
@@ -45,7 +45,7 @@ export const mock = [
 	},
 	{
 		id: 6,
-		imgUrl: 'url',
+		imgUrl: 'cover-live.png',
 		person: 'Hakio',
 		title: 'est en live !',
 		titleIcon: true,
@@ -54,7 +54,7 @@ export const mock = [
 	},
 	{
 		id: 7,
-		imgUrl: 'url',
+		imgUrl: 'post-img.png',
 		person: 'Hakio',
 		title: 'a publié une vidéo.',
 		titleIcon: true,
@@ -63,7 +63,7 @@ export const mock = [
 	},
 	{
 		id: 8,
-		imgUrl: 'url',
+		imgUrl: 'cover-hearthstone.png',
 		person: 'Hakio',
 		title: 'a publié une illustration.',
 		titleIcon: true,
@@ -72,7 +72,7 @@ export const mock = [
 	},
 	{
 		id: 9,
-		imgUrl: 'url',
+		imgUrl: 'cover-women.png',
 		person: 'Hakio',
 		title: 'a publié un Cosplay.',
 		titleIcon: true,
@@ -81,7 +81,7 @@ export const mock = [
 	},
 	{
 		id: 10,
-		imgUrl: 'url',
+		imgUrl: 'cover-duncan.png',
 		person: 'Hakio',
 		title: 'a ajouté un chapitre à son récit.',
 		titleIcon: true,
@@ -90,7 +90,7 @@ export const mock = [
 	},
 	{
 		id: 11,
-		imgUrl: 'url',
+		imgUrl: 'cover-duncan.png',
 		person: 'Hakio',
 		title: 'a publié un récit. Découvre-le !',
 		titleIcon: true,
@@ -99,7 +99,7 @@ export const mock = [
 	},
 	{
 		id: 12,
-		imgUrl: 'url',
+		imgUrl: 'cover-hearthstone.png',
 		person: 'Hakio',
 		title: 'a publié une illustration.',
 		titleIcon: true,
@@ -109,7 +109,7 @@ export const mock = [
 	},
 	{
 		id: 13,
-		imgUrl: 'url',
+		imgUrl: 'post-img.png',
 		title: 'Un jeu Fast and Furious annoncé',
 		description: 'Sur',
 		descriptionLink: 'Fast and Furious',

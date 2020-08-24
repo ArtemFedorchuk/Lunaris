@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import postImg from '../../assets/images/news/post-img.png';
 import arrowRightIcon from '../../assets/images/news/fas_fa-chevron-right.png';
 import { HeartFill } from 'react-bootstrap-icons';
 
@@ -19,7 +18,10 @@ const PostItem = (props) => {
 
 				<div className={styles.postItem}>
 					<div className={styles.imgWrapper}>
-						<img src={postImg} alt='post' />
+						<img
+							src={`./assets/images/news/${items.imgUrl}`}
+							alt={items.imgUrl}
+						/>
 					</div>
 					<div className={styles.postDescr}>
 						<div className={styles.text}>

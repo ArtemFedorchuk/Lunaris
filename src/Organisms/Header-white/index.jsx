@@ -65,7 +65,9 @@ const WhiteHeader = () => {
 				<Container className={styles.whiteHeaderWrapper}>
 					<Row>
 						<Col md={2} sm={1} className='text-right'>
-							<img className={styles.layerImg} src={layerImg} alt='layer' />
+							<a href='#'>
+								<img className={styles.layerImg} src={layerImg} alt='layer' />
+							</a>
 						</Col>
 						<Col md={10} className={styles.menuItemsWrappers}>
 							<div className={styles.toggleBtn}>

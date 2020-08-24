@@ -20,7 +20,7 @@ const ContentSection = (props) => {
 				</Row>
 				<Container className='justify-content-between'>
 					<Row>
-						<Col>
+						<Col className='p-0'>
 							<SideBarStatistic />
 							<div className={styles.block}></div>
 							<UsersCardMenu />
