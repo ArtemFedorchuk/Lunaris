@@ -1,4 +1,4 @@
-export const dataList = [
+export const mock = [
 	{
 		id: 1,
 		imgUrl: 'url',

@@ -1,13 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './Pages/home';
-import { dataList } from './constants';
+import { mock } from './constants';
 
 function App() {
-	console.log( typeof dataList );
+	console.log( typeof mock );
 	return (
 		<div>
-			<HomePage data={dataList} />
+			<HomePage data={mock} />
 		</div>
 	);
 }

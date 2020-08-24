@@ -11,6 +11,15 @@
 		ul {
 			margin: 0;
 			padding-left: 10px;
+			a {
+				text-decoration: none;
+				color: #7c7b7b;
+				font-family: Roboto, sans-serif;
+				font-weight: 400;
+				&:hover {
+					color: #343434;
+				}
+			}
 			li {
 				color: black;
 				font-weight: 700;
@@ -81,24 +90,27 @@
 		display: flex;
 		ul {
 			display: flex;
+			a {
+				text-decoration: none;
+				color: #7c7b7b;
+				font-family: Roboto, sans-serif;
+				font-weight: 400;
+				&:hover {
+					color: #343434;
+					&:after {
+						content: '';
+						display: block;
+						height: 2px;
+						background: #c58239;
+					}
+				}
+			}
 
 		}
 		li {
 			text-decoration: none;
 			list-style: none;
 			padding-right: 35px;
-			color: #7c7b7b;
-			font-family: Roboto, sans-serif;
-			font-weight: 400;
-			&:hover {
-				color: #343434;
-				&:after {
-					content: '';
-					display: block;
-					height: 2px;
-					background: #c58239;
-				}
-			}
 		}
 	}
 }

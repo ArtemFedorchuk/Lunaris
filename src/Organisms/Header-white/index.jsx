@@ -3,14 +3,11 @@ import styles from './styles.module.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import layerImg from '../../assets/images/layers.png';
-import { CategoryToggleMenu } from '../../Molecules';
 
 const WhiteHeader = () => {
-	const [isOpen, setIsOpen] = useState(false);
-	const [mobShow, setMobShow] = useState();
+	const [mobShow, setMobShow] = useState(); // mobile window header
 	const [mobMenu, setMobMenu] = useState(false);
 
-	const toggle = () => setIsOpen(!isOpen);
 	const mobToggle = () => setMobMenu(!mobMenu);
 
 	window.onresize = (e) => {
@@ -42,12 +39,24 @@ const WhiteHeader = () => {
 					{mobMenu && (
 						<div className={styles.mobileMenu}>
 							<ul>
-								<li>Profil</li>
-								<li>Mur</li>
-								<li>Armurerie</li>
-								<li>Creations</li>
-								<li>Listes</li>
-								<li>Abo</li>
+								<li>
+									<a href='#'>Profil</a>
+								</li>
+								<li>
+									<a href='#'>Mur</a>
+								</li>
+								<li>
+									<a href='#'>Armurerie</a>
+								</li>
+								<li>
+									<a href='#'>Creations</a>
+								</li>
+								<li>
+									<a href='#'>Listes</a>
+								</li>
+								<li>
+									<a href='#'>Abo</a>
+								</li>
 							</ul>
 						</div>
 					)}
@@ -59,7 +68,7 @@ const WhiteHeader = () => {
 							<img className={styles.layerImg} src={layerImg} alt='layer' />
 						</Col>
 						<Col md={10} className={styles.menuItemsWrappers}>
-							<div onClick={toggle} className={styles.toggleBtn}>
+							<div className={styles.toggleBtn}>
 								<div>
 									<span className={styles.toggle}>Hakio</span>
 									<svg
@@ -76,22 +85,27 @@ const WhiteHeader = () => {
 										/>
 									</svg>
 								</div>
-								{isOpen ? (
-									<div className={styles.toggleMenu}>
-										<CategoryToggleMenu />
-									</div>
-								) : (
-									false
-								)}
 							</div>
 							<div className={styles.wrapperMenu}>
 								<ul>
-									<li>Profil</li>
-									<li>Mur</li>
-									<li>Armurerie</li>
-									<li>Creations</li>
-									<li>Listes</li>
-									<li>Abo</li>
+									<li>
+										<a href='#'>Profil</a>
+									</li>
+									<li>
+										<a href='#'>Mur</a>
+									</li>
+									<li>
+										<a href='#'>Armurerie</a>
+									</li>
+									<li>
+										<a href='#'>Creations</a>
+									</li>
+									<li>
+										<a href='#'>Listes</a>
+									</li>
+									<li>
+										<a href='#'>Abo</a>
+									</li>
 								</ul>
 							</div>
 						</Col>
